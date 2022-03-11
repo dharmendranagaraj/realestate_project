@@ -1,0 +1,15 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+<!-- modifying Admin header logo and heading -->
+{% block branding %}
+<h1 id="head" style="color: antiquewhite;">
+    <img src="{% static 'img/logo.png' %}" alt="Realestate Logo" class="brand_img" height="40" width="80">
+    Admin Area
+</h1>
+{% endblock %}
+
+<!-- modifying admin color -->
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}

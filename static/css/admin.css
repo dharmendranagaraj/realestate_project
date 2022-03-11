@@ -1,0 +1,66 @@
+#header {
+    height: auto;
+    /* background-color: saddlebrown; */
+    background: #A05E2B;
+    color: #FFFAF1;
+}
+
+#branding {
+    color: #FFFAF1;
+}
+
+
+/* Navigation links */
+div.breadcrumbs, div.breadcrumbs a{
+    background-color: #EFE0BB;
+    color: #3B271D;
+}
+
+div.breadcrumbs a {
+    color: #AF734A;  
+}
+
+/* Table  */
+.module h2, .module caption, .inline-group h2, .module caption a{
+    background-color: #C7934E;
+}
+
+a:link, a:visited{
+    color: #AF734A;
+}
+
+/* Table odd rows */
+tr:nth-child(odd), .row-form-errors{
+    background-color: #EFE0BB;
+    color: #3B271D;
+}
+
+/* Table even rows */
+tr:nth-child(even), tr:nth-child(even) .errorlist, tr:nth-child(odd) + .row-form-errors, tr:nth-child(odd) + .row-form-errors .errorlist{
+    background-color: #FFFAF1;
+    color: #3B271D;
+}
+
+/* Table heading */
+thead th {
+    background-color: #AF734A;
+}
+
+/* Button color */
+/* .button, input[type=submit], input[type=button], .submit-row input, a.button{
+    background-color: #3B271D;
+} */
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button{
+    background-color: #AF734A;
+    background: #AF734A;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default{
+    background-color: #C7934E;
+    background: #C7934E;
+
+    background-color: #A05E2B;
+    background: #A05E2B;
+
+}
